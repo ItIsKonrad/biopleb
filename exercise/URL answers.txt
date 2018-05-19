@@ -1,0 +1,5 @@
+Notes: 
+1.) www.google.com	 -absolute
+2.) ../pic/dog.jpg	 -relative
+3.) /pic/dog.jpg 	 -absolute
+4.) chapter07/index.html -relative
