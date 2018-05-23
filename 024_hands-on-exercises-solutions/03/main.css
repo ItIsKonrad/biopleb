@@ -1,0 +1,11 @@
+div p {
+    color: blue;
+}
+
+/*CSS val 2*/
+
+div.emphasis p{
+    color: yellow;
+}
+
+/*CSS val 12*/

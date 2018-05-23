@@ -1,0 +1,11 @@
+div.emphasis a[target] {
+    color: yellow;
+}
+
+/*CSS val 22*/
+
+div a[href][target] {
+    color: blue;
+}
+
+/*CSS val 22, but second, so wins!*/
