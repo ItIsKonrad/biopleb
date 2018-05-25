@@ -1,0 +1,8 @@
+p {
+    font-size: 2rem;
+    text-indent: 3rem;
+}
+
+p:first-line {
+    text-decoration: line-through;
+}

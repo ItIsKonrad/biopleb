@@ -1,0 +1,6 @@
+p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 5px 10px 3px blue;
+}
