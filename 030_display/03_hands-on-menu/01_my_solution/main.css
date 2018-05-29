@@ -1,0 +1,41 @@
+html {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+    border: solid blue 2px;
+    text-align: center;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    border: solid blue 0;
+    text-align: center;
+    width: 200px;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+a:hover {
+    background-color: #00C957;
+}
+
+a:active {
+    background-color: red;
+}
