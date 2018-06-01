@@ -1,0 +1,27 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+div {
+    border: 2px solid red;
+    background-color: salmon;
+    width: 20%;
+    padding-top: 20%;
+    margin: 0 auto;
+
+}
+
+div:nth-child(2) {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}

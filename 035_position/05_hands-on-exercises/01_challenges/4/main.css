@@ -1,0 +1,27 @@
+html, body, nav, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    width: 200px;
+    border: solid red 2px;
+    height: 300px;
+}
+
+main {
+    margin-left: 200px;
+    border: solid black 2px;
+    height: 300px;
+    min-width: 300px;
+
+}
