@@ -1,0 +1,16 @@
+body {
+    border: groove black 3px;
+    padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+main {
+    overflow: auto;
+}
+
+img {
+    float:left;
+    padding: 10px;
+}
+

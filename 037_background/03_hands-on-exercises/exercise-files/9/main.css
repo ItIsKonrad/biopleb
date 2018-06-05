@@ -1,0 +1,15 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-image: url("../dog.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 300px 10px;
+    width: 700px;
+    height: 500px;
+    border: 10px orange groove;
+
+}

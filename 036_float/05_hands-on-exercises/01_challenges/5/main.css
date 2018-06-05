@@ -1,0 +1,58 @@
+html {
+    background: #23323d
+}
+
+header, main {
+    font-family: sans-serif;
+    color: #23323d;
+    font-weight: bold;
+    background: #a0ddff;
+    padding: 10px;
+    margin: 7px;
+    border: groove purple 7px;
+}
+
+ul, li {
+    list-style: none;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+li:last-child {
+    padding-bottom: 0;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main {
+    overflow: auto;
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+    width: 100px;
+}
+
+article {
+    float: right;
+    width: 80%;
+    border-left: purple solid 1px;
+    padding-left: 30px;
+}
+
+footer {
+    border: none;
+    text-align: center;
+    margin: 5px;
+    color: #547980;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+

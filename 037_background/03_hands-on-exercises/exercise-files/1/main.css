@@ -1,0 +1,10 @@
+body {
+    background-color: red;
+    height: 100vh
+}
+
+article {
+    color: white;
+    font-size: 44vmax;
+    text-align: center;
+}

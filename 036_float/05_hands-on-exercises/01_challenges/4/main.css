@@ -1,0 +1,25 @@
+body {
+    border: groove black 3px;
+    padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+main {
+    overflow: auto;
+    float: right;
+}
+
+img {
+    float:left;
+    padding: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    color: darkgreen;
+    font-weight: bold;
+    clear: right;
+    font-family: sans-serif;
+    text-align: center;
+}

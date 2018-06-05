@@ -1,0 +1,17 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+    width: 700px;
+    height: 700px;
+    background-image: url("../dog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 80px orange groove;
+    background-origin: content-box;
+    background-size: contain;
+}
