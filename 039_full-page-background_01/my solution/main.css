@@ -1,0 +1,54 @@
+body, header, main, h1, h2, a, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-variant: all-petite-caps;
+    letter-spacing: .6px;
+    color: #ffffffbb;
+    line-height: 22px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-image: url("../00_starting-files/img/background-photo-mobile-devices.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-size: 2.7rem;
+    text-align: center;
+    line-height: 30px;
+}
+
+h2 {
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    border: solid 1px #ffffffbb;
+    padding: 10px;
+    padding-top: 7px;
+}
+
+a:hover {
+    background: #ffffff33;
+}
