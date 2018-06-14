@@ -1,0 +1,25 @@
+html, body, div, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    width: 20vw;
+    height: 20vw;
+    padding: 10vw;
+    fill: #C4D8DF;
+}
+
+div {
+    border-radius: 100%;
+    box-shadow: 0 .7vw 2vw #00000033;
+}

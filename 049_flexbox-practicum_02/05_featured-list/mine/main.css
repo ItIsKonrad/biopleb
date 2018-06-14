@@ -1,0 +1,65 @@
+html, body, main, section, div, svg, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #86969C;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80vw;
+    height: 47vw;
+    border: 1px solid #BBD2DB;
+    border-radius: 1.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+}
+
+svg {
+    width: 10vw;
+    height: 10vw;
+    fill: #BBD2DB;
+}
+
+#speedometer {
+    width: 14vw;
+}
+
+div {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    padding: 1.5vw;
+    box-sizing: border-box;
+}
+
+div.right {
+    justify-content: space-between;
+    border-top: 1px solid #BBD2DB;
+    border-bottom: 1px solid #BBD2DB;
+}
+
+p {
+    padding: 0 2vw;
+    font-size: 2.5vw;
+}
+
+
+

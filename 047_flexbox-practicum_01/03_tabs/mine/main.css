@@ -1,0 +1,34 @@
+html, body, section, nav, ul, li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 3vw;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    margin-top: 7vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+
+li {
+    padding: 3vw 7vw;
+    border-bottom: 4px solid #00000000;
+}
+
+li:hover {
+    border-bottom: 4px solid #33b5bf;
+}

@@ -1,0 +1,57 @@
+html, body, section, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 4vw;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+section {
+    display: flex;
+    height: 3.3rem;
+    width: 14rem;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.minus, div.plus {
+    flex-grow: 1;
+    background: #86d0ff;
+    border: 1px solid royalblue;
+}
+
+div.minus:hover, div.plus:hover {
+    background: royalblue;
+}
+
+div.minus {
+    border-radius: 1rem 0 0 1rem;
+    font-size: 1.3rem;
+    padding-bottom: .8vw;
+}
+
+div.plus {
+    border-radius: 0 1rem 1rem 0;
+}
+
+div.number {
+    flex-grow: 2;
+    font-size: 2rem;
+    border-top: 1px solid royalblue;
+    border-bottom: 1px solid royalblue;
+}
+
+
+
+

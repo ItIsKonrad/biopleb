@@ -1,0 +1,66 @@
+html, body, svg, section, header, nav, a, main, p{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+section {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00000077;
+    height: 2rem;
+}
+
+svg.svgheader {
+    height: 1.8rem;
+    width: 2rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+a {
+    display: flex;
+    padding: 0 1.5vw;
+    height: 100%;
+    align-items: center;
+    fill: white;
+}
+
+a:hover {
+    background: lightgray;
+    color: black;
+    fill: black;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+svg.svgmain {
+    width: 90vw;
+    height: 70vh;
+    fill: hotpink;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+main p {
+    font-size: 12vw;
+    color: #00000050;
+    font-family: serif;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+html, body, section, div, svg, p, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CDD2D4;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 45vw;
+}
+
+svg {
+    width: 28vw;
+    height: 30vw;
+    fill: #BBD2DB;
+}
+
+.cardtop {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    font-size: 3vw;
+    color: #57737E;
+}
+
+.cardbottom {
+    display: flex;
+    height: 10vw;
+    background: #EEF3F5;
+    border-radius: 0 0 1vw 1vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    color: #56727D;
+}
