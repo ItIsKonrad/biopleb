@@ -1,0 +1,62 @@
+html, body, footer, section {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 300px;
+}
+section.atf {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    background-image: url("bird.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 4vw;
+}
+
+footer {
+    font-family: 'Nosifer', cursive;
+    color: red;
+    font-size: 7vw;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5vw;
+    min-height: 30px;
+    width: 100%;
+    background: #00000020;
+}
+
+nav.left, nav.right {
+    display: flex;
+    width: 100px;
+    height: 80%;
+    background: red;
+    font-size: calc(15px + .5vw);
+    align-items: center;
+    justify-content: center;
+}
+
+nav.left {
+    margin-left: 2vw;
+}
+
+nav.right {
+    margin-right: 2vw;
+}
