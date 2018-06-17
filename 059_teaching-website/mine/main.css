@@ -1,0 +1,164 @@
+html, body, section, contact, a, div, p, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vh;
+    background: url("g_s_03_five.jpg");
+    background-size: cover;
+    background-position: 0 55%;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+contact a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ffffffbb;
+    font-size: 2rem;
+}
+
+contact {
+    padding: 1rem;
+}
+
+header div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    margin: .5rem 1rem;
+}
+
+header div  p {
+    font-size: .75rem;
+}
+header div a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: .6rem 1.2rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: .3rem;
+    margin: .3rem;
+}
+
+header div a:hover {
+    background: #ffffff30;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    text-align: center;
+}
+main h1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+    line-height: 68px;
+}
+
+h1 a:hover {
+    color: red;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: #ffffff19;
+    box-shadow: 1px 1px 1px gray;
+    justify-content: flex-end;
+}
+
+footer article {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 1.5rem;
+    max-width: 830px;
+    line-height: 25px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer a.mmcg {
+    text-decoration: none;
+    color: white;
+    background: red;
+    box-shadow: 1px 1px 1px gray;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: .2rem;
+    font-size: .95rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+
+footer aside {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+}
+
+footer aside a, label {
+    display: flex;
+    text-decoration: none;
+    color: #ffffffa0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    min-width: 130px;
+    height: 40px;
+    margin: 20px 0;
+    justify-content: center;
+    border-radius: .2rem;
+    align-items: center;
+}
+
+footer aside a:hover {
+    background: #ffffff30;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:hover + #none {
+    display: none;
+}
+
+#create, #become, #find {
+    display: none;
+}
+
+input[type="checkbox"]:hover + #create, input[type="checkbox"]:hover + #become, input[type="checkbox"]:hover + #find {
+    display: flex;
+}
+
+#become, #find {
+    display: none;
+    max-width: 930px;
+}

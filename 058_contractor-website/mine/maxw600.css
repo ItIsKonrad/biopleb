@@ -1,0 +1,23 @@
+header section {
+    background-image: url("fam_blur_under_600_web_medium.jpg");
+}
+
+header nav, main div img {
+    display: none;
+}
+
+main div div {
+    width: 100%;
+}
+
+aside section {
+    background-image: url("us_16_9_smaller_web_30.jpg");
+}
+
+main {
+    width:80%;
+}
+
+td, th {
+    padding: 3px;
+}

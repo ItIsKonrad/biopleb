@@ -1,0 +1,17 @@
+header div, footer aside {
+    display: none;
+}
+
+header {
+    justify-content: center;
+}
+
+body {
+    background: url("g_s_03_five_small.jpg");
+    background-size: cover;
+
+}
+
+footer {
+    padding-bottom: 5%;
+}

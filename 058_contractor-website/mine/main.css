@@ -1,0 +1,239 @@
+body, header, h1, h2, h3, h4, h5, h6, nav, ul, li, section, a, p, footer, img, main, article, ol, div, img {
+    padding:0;
+    border:0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header>h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 10px 8px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 37px;
+    color: #484848;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 13px;
+}
+
+li.span {
+    width: 25%;
+    height: 1.5px;
+    background: #D0D0D0;
+}
+
+nav ul li a {
+    padding: 8px 15px;
+    background: #F6F6F6;
+}
+
+header section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    background: url("fam_blur.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    margin-top: 20px;
+}
+
+section * {
+    color: white;
+    text-align: center;
+}
+
+section>h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    font-family: 'Alice', serif;
+}
+
+section>h2 {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 25px;
+}
+
+a.tyht {
+    background: red;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    width: 191px;
+    margin: 15px;
+    color: white;
+    align-self: center;
+}
+
+main h2, footer h2 {
+    font-family: 'Alice', serif;
+    text-decoration: underline;
+    color: #484848;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+main h3, footer h3 {
+    font-family: 'Alice', serif;
+    color: #484848;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+article, main li {
+    color: #8E8E8E;
+    font-family: sans-serif;
+    font-size: 15px;
+    list-style: decimal;
+    margin: 4px 0 12px 0;
+}
+
+main li {
+    padding-left: 0;
+    background: none;
+    line-height: 17px;
+}
+main ol {
+    margin-left: 18px;
+    padding: 0.5px 0;
+}
+
+div#divhouse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+a.epa {
+    color: #8E8E8E;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+
+p.epa {
+    align-self: flex-end;
+}
+
+a.epa:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+span.separator {
+    background: #D0D0D0;
+    width: 80%;
+    height: 1.5px;
+    margin: 30px auto;
+
+}
+
+main, footer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 78%;
+    margin: 0 auto;
+}
+
+table caption {
+    font-family: 'Alice', serif;
+    color: #484848;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+td, th {
+    border: 1px solid #999999;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #484848;
+}
+
+table tr:first-of-type {
+     background: #C0C0C0;
+}
+
+table tr:nth-child(2n) {
+     background: #D0D0D0;
+}
+
+aside section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    background: url("us_left_web_30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    margin-top: 20px;
+}
+
+contact {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+contact p {
+    font-family: 'Alice', serif;
+    color: red;
+    font-size: 25px;
+}
+
+contact text {
+    width: 100%;
+    text-align: center;
+}
+
+contact a:first-of-type {
+    color: red;
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+contact a:first-of-type:hover {
+    color: blue;
+}
+
+contact a:last-of-type {
+    color: blue;
+    margin: 5px;
+}
+
+contact a:last-of-type:hover {
+    text-decoration: underline;
+}
+
+
